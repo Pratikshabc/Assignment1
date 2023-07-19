@@ -17,6 +17,53 @@ abstract class Car {
     protected abstract void engine(String eng);
 }
 
+class Honda extends Car{
+
+    public void color (String n)
+    {
+        System.out.println("Honda Color is: "+n);
+    }
+    public void wheel (String w)
+    {
+        System.out.println("Honda wheel is: "+w);
+    }
+    public void engine (String e)
+    {
+        System.out.println("Honda engine is: "+e);
+    }
+}
+class Hyundai extends Car{
+    public void color(String n)
+    {
+        System.out.println("Hyundai Color is: "+n);
+    }
+    public void wheel(String w)
+    {
+        System.out.println("Hyundai wheel is: "+w);
+    }
+    public void engine(String e)
+    {
+        System.out.println("Hyundai engine is: "+e);
+    }
+
+}
+class Toyota extends Car{
+    public void color(String n)
+    {
+        System.out.println("Hyundai Color is: "+n);
+    }
+    public void wheel(String w)
+    {
+        System.out.println("Hyundai wheel is: "+w);
+    }
+    public void engine(String e)
+    {
+        System.out.println("Hyundai engine is: "+e);
+    }
+
+}
+
+
 
 
 
